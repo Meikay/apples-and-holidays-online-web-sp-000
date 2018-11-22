@@ -73,7 +73,8 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   bbq = "BBQ"
 holiday_hash.each do |seas, hol|
-  puts "#{hol}" << bbq
-
+  if hol.include? bbq 
+    puts hol
+  end
 end
 end
