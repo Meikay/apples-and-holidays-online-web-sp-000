@@ -77,5 +77,6 @@ holiday_hash.each do |seas, hol|
   if sup.include?("bbq")
     hol
   end
+  end
 end
 end
