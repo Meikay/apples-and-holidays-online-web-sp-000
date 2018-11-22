@@ -74,6 +74,6 @@ def all_holidays_with_bbq(holiday_hash)
   bbq = "BBQ"
 holiday_hash.each do |seas, hol|
   puts "#{hol}" << bbq
-  
+
 end
 end
